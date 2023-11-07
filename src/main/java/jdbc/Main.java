@@ -26,5 +26,7 @@ public class Main {
         userDao.removeUserById(1);
         userDao.cleanUsersTable();
         userDao.dropUsersTable();
+
+        System.out.println("ебучий гит");
     }
 }
