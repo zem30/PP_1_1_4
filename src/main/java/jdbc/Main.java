@@ -27,9 +27,6 @@ public class Main {
         userDao.cleanUsersTable();
         userDao.dropUsersTable();
 
-        System.out.println("ебучий гит");
-        System.out.println("я самая умненькая и красивенькая, и самая лучшая жена");
-        System.out.println("lthmvj");
-        System.out.println("я самая умненькая и красивенькая, и самая лучшая жена");
+
     }
 }
