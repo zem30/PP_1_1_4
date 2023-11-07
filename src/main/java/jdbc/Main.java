@@ -5,7 +5,7 @@ import jdbc.service.UserServiceImpl;
 
 
 public class Main {
-    private static UserService userDao = new UserServiceImpl();
+    private static final UserService userDao = new UserServiceImpl();
 
     public static void main(String[] args) {
 //        1. Создание таблицы User(ов)
