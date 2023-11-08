@@ -30,5 +30,6 @@ public class Main {
 
         System.out.println("Я самая умненькая, красивенькая и ахуенная жена");
         System.out.println("-----");
+        System.out.println("ha-ha");
     }
 }
