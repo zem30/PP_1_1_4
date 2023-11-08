@@ -14,7 +14,7 @@ public class Main {
 //        4. Очистка таблицы User(ов)
 //        5. Удаление таблицы
 
-
+        userDao.dropUsersTable();
         userDao.createUsersTable();
 
         userDao.saveUser("Name1", "LastName1", (byte) 20);
