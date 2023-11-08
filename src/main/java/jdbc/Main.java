@@ -13,7 +13,6 @@ public class Main {
 //        3. Получение всех User из базы и вывод в консоль ( должен быть переопределен toString в классе User)
 //        4. Очистка таблицы User(ов)
 //        5. Удаление таблицы
-        System.out.println("что-то такое");
 
         userDao.dropUsersTable();
         userDao.createUsersTable();
@@ -28,9 +27,5 @@ public class Main {
         userDao.cleanUsersTable();
         userDao.dropUsersTable();
 
-        System.out.println("Я самая умненькая, красивенькая и ахуенная жена");
-        System.out.println("-----");
-        System.out.println("ha-ha");
-        System.out.println("ne ha-ha");
     }
 }
