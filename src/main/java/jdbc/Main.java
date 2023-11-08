@@ -29,5 +29,6 @@ public class Main {
         userDao.dropUsersTable();
 
         System.out.println("Я самая умненькая, красивенькая и ахуенная жена");
+        System.out.println("-----");
     }
 }
