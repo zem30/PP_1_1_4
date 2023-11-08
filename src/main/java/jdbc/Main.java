@@ -27,6 +27,6 @@ public class Main {
         userDao.cleanUsersTable();
         userDao.dropUsersTable();
 
-
+        System.out.println("Я самая умненькая, красивенькая и ахуенная жена");
     }
 }
